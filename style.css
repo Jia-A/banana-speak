@@ -1,41 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-:root{
+
+:root {
     --primary-color: #FFD55E;
     --secondary-color: #115695;
 }
-body{
+
+body {
     margin: 0px;
     font-family: 'Kalam', cursive;
+
 }
 
-.container{
+.container {
     padding: 10px 0px;
     margin: 10px 0px;
 }
-.container-centre{
-    
+
+.container-centre {
+
     max-width: 600px;
     margin: auto;
 }
-textarea{
+
+textarea {
     height: 6vh;
     width: 80%;
     display: block;
     margin: 20px;
     border-color: var(--secondary-color);
     padding: 1rem;
-    border-radius: 5px ;
+    border-radius: 5px;
     font-family: "kalam", cursive;
     font-size: large;
     text-align: center;
-    
-    }
- 
-.btn-para{
-    width:80%;
-    
+
+
 }
-.op-box{
+
+.btn-para {
+    width: 80%;
+
+}
+
+.op-box {
     border: 1px solid;
     border-color: var(--secondary-color);
     height: 6vh;
@@ -45,7 +52,8 @@ textarea{
     font-size: large;
     text-align: center;
 }
-#btn-translate{
+
+#btn-translate {
     margin: auto;
     padding: 15px 30px;
     background-color: var(--primary-color);
@@ -53,11 +61,11 @@ textarea{
     border-radius: 5px;
     font-family: 'Kalam', cursive;
     font-size: large;
-    
-    
+
+
 }
 
-footer{
+footer {
     background-color: var(--primary-color);
     height: 80px;
     margin-top: 10px;
@@ -67,25 +75,19 @@ footer{
     line-height: 3px;
 }
 
-.hero{
-    
+.hero {
+
     margin: 15px 0px;
 }
- 
-.hero-image{
+
+.hero-image {
     display: block;
     max-width: 400px;
     margin: auto;
 }
 
-.nav-style{
+.nav-style {
     background-color: var(--primary-color);
     padding: 5px;
     text-align: center;
 }
-
-
-
-
-
-
