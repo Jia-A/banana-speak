@@ -49,6 +49,7 @@ textarea {
     width: 80%;
     border-radius: 5px;
     margin-top: 5px;
+    margin-bottom: 5px;
     font-size: large;
     text-align: center;
 }
@@ -65,7 +66,7 @@ textarea {
 
 }
 
-footer {
+/*footer {
     background-color: var(--primary-color);
     height: 80px;
     margin-top: 10px;
@@ -73,8 +74,18 @@ footer {
     width: 100%;
     text-align: center;
     line-height: 3px;
+}*/
+footer{
+    background-color: var(--primary-color);
+    padding: 1.45rem 0.5rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    line-height: 7px;
 }
-
+.footer .footer-head{
+    font-weight: bold;
+}
 .hero {
 
     margin: 15px 0px;
